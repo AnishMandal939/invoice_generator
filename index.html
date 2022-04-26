@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>invoice_generator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
+                        <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
+                        <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
+                    </svg></span><span>NIKHIL YANTRASHALA</span></a></div>
+    </nav>
+    <main>
+        <section class="top_details container" style="border-style: solid;border-color: rgba(238,239,241,0.65);">
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <h1 class="flex-grow-1">Nikhil Yantrashala, Biratnagar</h1><label class="form-label">S.No:&nbsp;</label><input type="text" class="px-2" placeholder="S.No" style="border-style: dotted;border-color: rgb(38,200,64);">
+            </div>
+            <div class="d-flex">
+                <p class="mx-2">Phone Number :</p><span contenteditable="">9876543212</span>
+            </div>
+        </section>
+        <section class="main_form container mt-2">
+            <section>
+                <div id="multple-step-form-n" class="container overflow-hidden" style="margin-top: 0px;margin-bottom: 10px;padding-bottom: 300px;padding-top: 57px;">
+                    <div id="progress-bar-button" class="multisteps-form">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 ml-auto mr-auto mb-4">
+                                <div class="multisteps-form__progress"><a class="btn multisteps-form__progress-btn js-active" role="button" title="User Info">User Info</a><a class="btn multisteps-form__progress-btn" role="button" title="Received Items">Received Items</a><a class="btn multisteps-form__progress-btn"
+                                        role="button" title="New Items">New Items</a><a class="btn multisteps-form__progress-btn" role="button" title="Job Done">Job Done</a><a class="btn multisteps-form__progress-btn" role="button" title="Service Provider">Service_provider</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="multistep-start-row" class="row mb-5">
+                        <div id="multistep-start-column" class="col-12 col-lg-9 m-auto">
+                            <form id="main-form" class="multisteps-form__form">
+                                <div id="single-form-next" class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                                    <h3 class="text-center multisteps-form__title">User Info</h3>
+                                    <div id="form-content" class="multisteps-form__content">
+                                        <div id="input-grp-double" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Full Name"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control" type="date"></div>
+                                        </div>
+                                        <div id="input-grp-double-3" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Address"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Phone Number"></div>
+                                        </div>
+                                        <div id="input-grp-double-4" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Vehicle Type"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Vehicle Number"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Mobile Number"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Fitter"></div>
+                                        </div>
+                                        <div id="next-button" class="button-row d-flex mt-4"><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                                    </div>
+                                </div>
+                                <div id="single-form-next-prev" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                    <h3 class="text-center multisteps-form__title">Received Items</h3>
+                                    <div id="form-content" class="multisteps-form__content">
+                                        <div id="input-grp-double" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Block"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Crank Shaft"></div>
+                                        </div>
+                                        <div id="input-grp-double-3" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Shaft"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Con.rod"></div>
+                                        </div>
+                                        <div id="input-grp-double-4" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="A.C Block"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="date"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Chapa"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Weight"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Idle gear"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Piston"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="A.C Piston"></div>
+                                            <!-- <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Piston"></div> -->
+                                        </div>
+                                        <div id="next-button" class="button-row d-flex gap-2 mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                                    </div>
+                                </div>
+                                <div id="single-form-next-prev-1" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                    <h3 class="text-center multisteps-form__title">New Items</h3>
+                                    <div id="form-content" class="multisteps-form__content">
+                                        <div id="input-grp-double" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Piston"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Main Bearing"></div>
+                                        </div>
+                                        <div id="input-grp-double-3" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Big End Bearing"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="C.R.Bush"></div>
+                                        </div>
+                                        <div id="input-grp-double-4" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Bush"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Thrust Washer"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Linear"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Valve"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Valve Guide"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Idle Bush"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="O ring with Sim"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Typid Bush"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Typid Shaft"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Tikki"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="A.C Bearing"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Crank Shaft"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Connecting Rod"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Shaft"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <!-- <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Connecting Rod"></div> -->
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><button class="btn btn btn-primary ml-auto js-btn-add" onclick="create_innerhtml()" type="button">Add More Field</button></div>
+                                        </div>
+                                        <div id="next-button" class="button-row d-flex gap-2 mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                                    </div>
+                                </div>
+                                <div id="single-form-next-prev-2" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                    <h3 class="text-center multisteps-form__title">Job Done</h3>
+                                    <div id="form-content" class="multisteps-form__content">
+                                        <div id="input-grp-double" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Crank Grinding"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Bearing setting"></div>
+                                        </div>
+                                        <div id="input-grp-double-3" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Con.bush bore"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Linear open/fitting"></div>
+                                        </div>
+                                        <div id="input-grp-double-4" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Bush"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Allignment"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="OilSeal welding / grinding"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Servicing"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Con.housing bore"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Main line check / boring"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Cam shaft grinding"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Cam Bush Bore"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Sleeving boring honning"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Block body bore"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Piston top cutting"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Surface grinding"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Crank knurling/ threading"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Crank gear open fitting"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Crank trueing/ checking"></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Mountain Welding"></div>
+                                        </div>
+                                        <div id="input-grp-double-5" class="form-row mt-4 d-flex d-md-flex gap-2">
+                                            <!-- <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Connecting Rod"></div> -->
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><button class="btn btn btn-primary ml-auto js-btn-add" type="button">Add More Field</button></div>
+                                        </div>
+                                        <div id="next-button" class="button-row d-flex gap-2 mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                                    </div>
+                                </div>
+                                <div id="single-form-next-prev-3" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                    <h3 class="text-center multisteps-form__title">Service Provider</h3>
+                                    <div id="form-content-4" class="multisteps-form__content">
+                                        <div id="input-grp-double-7" class="form-row mt-4 d-flex gap-2">
+                                            <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="Name "></div>
+                                            <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Address "></div>
+                                        </div>
+                                        <div id="input-grp-single-4" class="form-row mt-4">
+                                            <div class="col-12">
+                                                <!-- <input class="form-control multisteps-form__input" type="text" placeholder="House"> -->
+                                                <!-- create canvas to sign  -->
+                                                <!-- <canvas id="signature-pad" class="signature-pad" width=400 height=200></canvas> -->
+                                                <div class="container">
+
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <canvas id="sig-canvas" width="620" height="160">
+                                                                 Get a better browser, bro.
+                                                             </canvas>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="row">
+                                                        <div class="col-md-12">
+                                                            <button class="btn btn-primary" id="sig-submitBtn">Submit Signature</button>
+                                                            <button class="btn btn-default" id="sig-clearBtn">Clear Signature</button>
+                                                        </div>
+                                                    </div> -->
+                                                    <!-- <br/> -->
+                                                    <!-- <div class="row">
+                                                        <div class="col-md-12">
+                                                            <textarea id="sig-dataUrl" class="form-control" rows="5">Data URL for your signature will go here!</textarea>
+                                                        </div>
+                                                    </div> -->
+                                                    <!-- <br/> -->
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img id="sig-image" src="" alt="Your signature will go here!" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div id="next-prev-buttons-3" class="button-row d-flex mt-4 gap-2"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="submit" title="Next">Submit</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="received_items_forms"></section>
+    </main>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Multi-step-form.js"></script>
+</body>
+
+</html>
